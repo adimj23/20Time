@@ -42,7 +42,7 @@ else if(document.getElementById('season').checked && document.getElementById('re
   window.open('/season-reb.html','_self')
 }
 else if(document.getElementById('alltime').checked) {
-  window.open('alltime.html','_self')
+  window.open('index.html','_self')
 }
 else {
   window.alert("One choice must be selected from each field")
