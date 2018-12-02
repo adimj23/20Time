@@ -30,7 +30,7 @@ function idForm(){
   window.open('/20time/career-ast.html','_self')
 }
 else if(document.getElementById('career').checked && document.getElementById('reb').checked) {
-  window.open('/20time/20time/career-reb.html','_self')
+  window.open('/20time/career-reb.html','_self')
 }
 else if(document.getElementById('season').checked && document.getElementById('pts').checked) {
   window.open('/20time/season-pts.html','_self')
