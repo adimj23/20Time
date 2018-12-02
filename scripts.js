@@ -25,21 +25,21 @@ window.onclick = function(event) {
 
 function idForm(){
   if(document.getElementById('career').checked && document.getElementById('pts').checked) {
-  window.open('/career-pts.html','_self')
+  window.open('/20time/career-pts.html','_self')
 }else if(document.getElementById('career').checked && document.getElementById('ast').checked) {
-  window.open('/career-ast.html','_self')
+  window.open('/20time/career-ast.html','_self')
 }
 else if(document.getElementById('career').checked && document.getElementById('reb').checked) {
-  window.open('/career-reb.html','_self')
+  window.open('/20time/20time/career-reb.html','_self')
 }
 else if(document.getElementById('season').checked && document.getElementById('pts').checked) {
-  window.open('/season-pts.html','_self')
+  window.open('/20time/season-pts.html','_self')
 }
 else if(document.getElementById('season').checked && document.getElementById('ast').checked) {
-  window.open('/season-ast.html','_self')
+  window.open('/20time/season-ast.html','_self')
 }
 else if(document.getElementById('season').checked && document.getElementById('reb').checked) {
-  window.open('/season-reb.html','_self')
+  window.open('/20time/season-reb.html','_self')
 }
 else if(document.getElementById('alltime').checked) {
   window.open('index.html','_self')
